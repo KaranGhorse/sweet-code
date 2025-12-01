@@ -30,7 +30,7 @@ wBtn.addEventListener("click", () => {
     document.body.classList.toggle("profile");
     
   if (document.body.classList.contains("profile")) {
-    profilelarea.style.width="8%";
+    profilelarea.style.width="10%";
     profilerarea.style.width="100%";
    
   }
@@ -55,8 +55,6 @@ const user = document.querySelectorAll(".profile-section")
 eCross.addEventListener("click",()=>{
        document.body.classList.toggle("show");
 })
-
-
 
 
 

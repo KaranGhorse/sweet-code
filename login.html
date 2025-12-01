@@ -19,7 +19,7 @@
             </div>
             <div class="header-right-area">
                 <button id="themeBtn"><i class="ri-contrast-2-fill"></i></button>
-                <button class="head-btn"><a href="#">Get Started</a></button>
+                <button class="head-btn"><a href="profile.html">Get Started</a></button>
             </div>
         </div>
 
@@ -100,6 +100,15 @@
 
     <script src="script.js"></script>
         <script src="login.js"></script>
+
+        <script>
+            const loginBtns = document.querySelectorAll('.loginBtn')
+            loginBtns.forEach((btn)=>{
+                btn.addEventListener('click',()=>{
+                    window.location.href = '/profile.html'
+                })
+            })
+        </script>
 </body>
 
 </html>

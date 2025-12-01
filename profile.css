@@ -27,6 +27,7 @@ body {
         justify-content: space-between;
         /* background-color: pink; */
         padding: 30px 10px;
+        position: relative;
 
     }
 
@@ -61,9 +62,6 @@ body {
         left: -10px; */
     }
 
-    .profile-left-bottomarea-icon {
-        position: relative;
-    }
 
 }
 
@@ -90,6 +88,7 @@ body {
     padding: 30px 20px;
     border-right: 1px solid #a2a2ab;
     border-right-style: dashed;
+    position: relative;
     /* overflow: hidden; */
 }
 
@@ -189,7 +188,7 @@ body {
     border: 1px solid #a2a2ab;
     border-style: dashed;
     border-radius: 50px;
-    background-color: red;
+    /* background-color: red; */
 
     a {
         font-size: 14px;
@@ -210,10 +209,10 @@ body {
 
 
 .profile-left-bottomarea-icon {
-    position: relative;
+    position: absolute;
             /* position: absolute; */
-        top: 3px;
-        left: 40px;
+        bottom: 40px;
+        right: -10px;
 
     i {
         font-size: 14px;
